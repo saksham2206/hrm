@@ -91,7 +91,7 @@ class Dashboard extends CI_Controller {
 	public function leaveapplication(){
 		$this->load->view('admin/leaveapplication');
 	}
-	// public function salary(){
-	//     $this->load->('admin/salary');
-	// 	}
+	 public function salary(){
+	     $this->load->('admin/salary');
+		}
 		}
